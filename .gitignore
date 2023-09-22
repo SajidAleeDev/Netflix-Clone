@@ -11,6 +11,9 @@ firebase-debug.*.log*
 .firebase/
 
 # Firebase config
+.firebaserc
+./src/Firebase.jsx
+./src/Request.jsx
 
 # Uncomment this if you'd like others to create their own Firebase project.
 # For a team working on the same Firebase project(s), it is recommended to leave
@@ -38,6 +41,7 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 
+
 # node-waf configuration
 .lock-wscript
 
@@ -49,6 +53,7 @@ node_modules/
 
 # Optional npm cache directory
 .npm
+
 
 # Optional eslint cache
 .eslintcache
@@ -64,3 +69,4 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
